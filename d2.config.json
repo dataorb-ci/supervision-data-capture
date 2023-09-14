@@ -1,0 +1,17 @@
+{
+  "name": "supervision-data-capture",
+  "title": "Supervision Data Capture",
+  "description": "Supervision Data Capture",
+  "dataStoreNamespace": "supervision-data-capture",
+  "customAuthorities": [
+    "SUPERVISION_DATA_CAPTURE_ADD_NEW",
+    "SUPERVISION_DATA_CAPTURE_UPDATE",
+    "SUPERVISION_DATA_CAPTURE_DELETE"
+  ],
+  "minDHIS2Version": 2.4,
+  "type": "app",
+  "version": "1.0.2",
+  "entryPoints": {
+    "app": "index.html"
+  }
+}

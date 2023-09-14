@@ -1,0 +1,28 @@
+{
+  "appType": "APP",
+  "short_name": "supervision-data-capture",
+  "name": "Supervision Data Capture",
+  "description": "Supervision Data Capture",
+  "version": "1.0.2",
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*",
+      "namespace": "supervision-data-capture"
+    }
+  },
+  "authorities": [
+    "SUPERVISION_DATA_CAPTURE_ADD_NEW",
+    "SUPERVISION_DATA_CAPTURE_UPDATE",
+    "SUPERVISION_DATA_CAPTURE_DELETE"
+  ],
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
+  "manifest_generated_at": "Mon Jul 17 2023 06:37:37 GMT+0100 (West Africa Standard Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "scope": "."
+}
